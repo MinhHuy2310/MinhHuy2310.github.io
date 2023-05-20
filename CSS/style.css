@@ -1,58 +1,131 @@
 body {
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.width-layout {
+    width: 1024px;
+    margin: auto;
+}
+
+header {
+    color: #333;
+    text-align: center;
+    background-color: #fff;
 }
 
 header {
     background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
 }
 
-.width-layout {
-    width: 936px;
-    margin: auto;
+#header {
+    background-color: #333;
 }
+
+.header-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-heading-title {
+    color: #fff;
+}
+.header-heading-title:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+.header-heading-search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 0 72px;
+}
+
+.header-heading-search input {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 6px;
+}
+
+.header-heading-search i {
+    color: #fff;
+    margin-left: 6px;
+    font-size: 28px;
+}
+
+.header-heading-list {
+    color: #fff;
+    display: flex;
+    list-style: none;
+}
+
+.header-heading-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: .6;
+}
+
+.header-heading-item + .header-heading-item {
+    margin-left: 12px
+}
+
 
 nav {
-    background-color: #555;
-    color: #fff;
-    padding: 10px;
+    background-color: #42b141;
+    color: #180c0c;
+    border-radius: 2px;
+    overflow: hidden;
+    padding-left: 0;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    height: 46px;
 }
 
 nav li {
-    display: inline-block;
-    margin-right: 20px;
+    height: 100%;
 }
 
 nav li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
+    height: 100%;
+    display: block;
+    line-height: 46px;
+    padding: 0 20px;
+}
+nav li a:hover {
+    background-color: #180c0c;
+    color: #42b141;
+}
+
+#body {
+
 }
 
 main {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    padding: 30px;
-    background-color: brown;
+    background-color: #ff5f5f;
+    padding: 6px;
+    margin-bottom: 72px;
 }
 
 section {
     background-color: #fff;
-    box-shadow: 0px 0px 10px #ccc;
-    margin-bottom: 30px;
-    padding: 20px;
     text-align: center;
-    width: 30%;
-    margin: 0 12px;
+    width: 33.3336%;
+    margin: 6px;
 }
 
 section h2 {
@@ -67,9 +140,13 @@ section p {
 
 section img {
     max-width: 100%;
-    width: 452px;
+    object-fit: contain;
+    height: 257px;
     object-fit: cover;
-    height: 228px;
+}
+
+.body-descript {
+    text-align: justify;
 }
 
 footer {
