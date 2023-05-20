@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Phụ kiện</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="width-layout">
+            <div id="header">
+                <div class="header-heading">
+                    <h1 class="header-heading-title">Chợ APPLE</h1>
+                    <div class="header-heading-search">
+                        <input type="text" placeholder="Tìm kiếm">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <ul class="header-heading-list">
+                        <li class="header-heading-item">
+                            Đăng ký
+                        </li>
+                        <li class="header-heading-item">
+                            Đăng nhập
+                        </li>
+                    </ul>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="./Trangchu.html">iPhone</a></li>
+                        <li><a href="./Phukien.html">Phụ Kiện</a></li>
+                        <li><a href="./Macbook.html">Macbook</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="#body">
+        <div class="width-layout">
+
+            <h2>
+                Phụ kiện
+            </h2>
+
+            <main>
+                <section>
+                    <h2>TÚI XÁCH MACBOOK DA PU KHÓA SỐ CHỐNG TRỘM GORCHIS - G02</h2>
+                    <p>Giá: 1,420,000₫</p>
+                    <a href="#"><img
+                            src="https://product.hstatic.net/1000357512/product/done_1_d75dbe84e3b9465f82cc7c70d1292e72_grande.jpg"></a>
+                    <p>Mô tả sản phẩm</p>
+
+                </section>
+                <section>
+                    <h2>GIÁ ĐỠ MACBOOK TÍCH HỢP QUẠT TẢN NHIỆT CAO CẤP - Z26A</h2>
+                    <p>Giá: 985,000₫</p>
+                    <a href="#"><img
+                            src="https://product.hstatic.net/1000357512/product/done_3_be578cc9a5924ffdadc1aefa54d2a42e_grande.jpg"></a>
+                    <p>Mô tả sản phẩm</p>
+
+                </section>
+                <section>
+                    <h2>TÚI CHỐNG SỐC MACBOOK DA CAO CẤP JETELERN - J29</h2>
+                    <p>Giá: 1,390,000₫</p>
+                    <a href="#"><img
+                            src="https://product.hstatic.net/1000357512/product/done_1_be15293c96464722918199eeef0df378_grande.jpg"></a>
+                    <p>Mô tả sản phẩm</p>
+
+                </section>
+            </main>
+            <main>
+                <section>
+                    <h2>CHUỘT BLUETOOTH CAO CẤP MICROSOFT MOBILE MOUSE | HÀNG CHÍNH HÃNG</h2>
+                    <p>Giá: 900,000₫</p>
+                    <a href="#"><img
+                            src="https://product.hstatic.net/1000357512/product/done_10_3f434255126f4e94975848f620548b3b_grande.jpg"></a>
+                    <p>Mô tả sản phẩm</p>
+
+                </section>
+                <section>
+                    <h2>BỘ VỆ SINH MACBOOK/ LAPTOP CAO CẤP JRC | HÀNG CHÍNH HÃNG</h2>
+                    <p>Giá: 180,000₫ </p>
+                    <a href="#"><img
+                            src="https://product.hstatic.net/1000357512/product/done_2_8ed5688f033d4040baae1deb448e4ccd_grande.jpg"></a>
+                    <p>Mô tả sản phẩm</p>
+
+                </section>
+                <section>
+                    <h2>BAO DA THẬT CHỐNG SỐC MACBOOK CAO CẤP TONI - TN03</h2>
+                    <p>Giá: 1,300,000₫</p>
+                    <a href="#"><img
+                            src="https://product.hstatic.net/1000357512/product/z3440965213989_582431af8746066187b2b26ac7f42bf5_5d25aebc45344d898ddfe3ca645c4b59_grande.jpg"></a>
+                    <p>Mô tả sản phẩm</p>
+
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <div class="width-layout">
+            <p>Bản quyền © 2023 Trang web bán iPhone</p>
+        </div>
+    </footer>
+</body>
+
+</html>
