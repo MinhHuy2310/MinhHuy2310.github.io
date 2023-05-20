@@ -68,8 +68,8 @@ section p {
 section img {
     max-width: 100%;
     width: 452px;
-    object-fit: contain;
-    height: 300px;
+    object-fit: cover;
+    height: 228px;
 }
 
 footer {
