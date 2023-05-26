@@ -9,17 +9,19 @@ body {
     margin: auto;
 }
 
+.width-layout h2 {
+    margin-top: 0;
+}
+
 header {
+    background: url(https://congngheviet.com/wp-content/uploads/2022/08/Hinh-nen-Far-Out-cho-iPhone01-e1661419392538-1920x1022.jpeg) no-repeat center /cover;
     color: #333;
     text-align: center;
     background-color: #fff;
+    border-bottom: 10px solid #8491b5;
 }
 
 header {
-    background-color: #333;
-}
-
-#header {
     background-color: #333;
 }
 
@@ -76,7 +78,6 @@ header {
 
 
 nav {
-    background-color: #42b141;
     color: #180c0c;
     border-radius: 2px;
     overflow: hidden;
@@ -103,22 +104,27 @@ nav li a {
     line-height: 46px;
     padding: 0 20px;
 }
+
 nav li a:hover {
     background-color: #180c0c;
     color: #42b141;
 }
 
-#body {
+.nav-item-link {
+    color: #fff;
+}
 
+/* body */
+#body {
+    background: url(https://photo-link-talk.zadn.vn/photolinkv2/720/aHR0cHM6Ly9pMC53cC5jb20vdGVrY2FmZS52bi93cC1jb250ZW50L3VwbG9hZHMvMjAyMS8wOS9JTUdfMjE3MS0yLXNjYWxlZC5qcGc/Zml0PTE5MjAsMTEzMSZzc2w9MQ==) no-repeat center /cover;
 }
 
 main {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    background-color: #ff5f5f;
+    background-color: #8491b5;
     padding: 6px;
-    margin-bottom: 72px;
 }
 
 section {
